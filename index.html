@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Personal Portfolio</title>
+    <style>
+        /* A simple, clean, and modern stylesheet */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            overflow: auto;
+            padding: 0 2rem;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            color: #ccc;
+        }
+        section {
+            padding: 2rem 0;
+            border-bottom: 1px solid #ddd;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 2rem;
+            color: #333;
+        }
+        #projects .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+        .project-card {
+            background: #fff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+        .project-card h3 {
+            margin-top: 0;
+        }
+        .project-card a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 1rem;
+            background: #f4f4f4;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+        }
+        .project-card a:hover {
+            background: #ddd;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            background: #333;
+            color: #fff;
+        }
+        footer .social-links a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 1.2rem;
+        }
+        footer .social-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Your Name</h1>
+            <p>Software Developer | Tech Enthusiast | Lifelong Learner</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="about">
+            <h2>👋 About Me</h2>
+            <p>
+                Hello! I'm [Your Name], a passionate developer with an interest in [Your Interest, e.g., Web Development, Machine Learning, etc.]. I love building cool projects and learning new technologies. This page showcases some of the work I'm proud of. Feel free to look around and get in touch!
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2>🚀 My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Project Title 1</h3>
+                    <p>A brief description of your project. Explain the technology used and the problem it solves. Keep it concise and impactful.</p>
+                    <a href="#" target="_blank">View on GitHub</a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Project Title 2</h3>
+                    <p>A brief description of your project. Explain the technology used and the problem it solves. Keep it concise and impactful.</p>
+                    <a href="#" target="_blank">View on GitHub</a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Project Title 3</h3>
+                    <p>A brief description of your project. Explain the technology used and the problem it solves. Keep it concise and impactful.</p>
+                    <a href="#" target="_blank">View on GitHub</a>
+                </div>
+                 </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Get in touch!</p>
+            <div class="social-links">
+                <a href="#" target="_blank">GitHub</a>
+                <a href="#" target="_blank">LinkedIn</a>
+                <a href="#" target="_blank">Twitter / X</a>
+            </div>
+            <p>&copy; 2025 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
